@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    height: 520px;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1), -10px -10px 5px rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    position: relative;
+}
+
+.container div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div button {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: none;
+    padding: 5%;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #f9bdd0a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div button:hover {
+    background-color: #f5adc3;
+}
+
+hr {
+    width: 95%;
+    background-color: #fff;
+    border: none;
+    padding: 0.5px;
+    margin: 50px auto 10px auto;
+}
+
+.delete-back {
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    opacity: 0.5;
+}
+
+.delete-back:hover {
+    background-color: transparent;
+    opacity: 1;
+}
+
+input {
+    width: 90%;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    margin: 10px auto 0 auto;
+}
+
+/* input::placeholder{
+    animation: blink 1s step-start infinite;
+} */
+
+/* @keyframes blink {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+} */
